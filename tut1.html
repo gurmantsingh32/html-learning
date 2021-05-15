@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <marquee behavior="" direction="">
+    <h1 style="position:center; color: crimson; font: xx-large; border: darkblue;">
+        My Portfolio </h1>
+    </marquee>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+<div class="container">
+  <img src="/img/img1.jpg" alt="Avatar" class="image" style="width: 100%;">
+  <div class="middle">
+    <div class="text">Gurmant singh</div>
+  </div>
+</div position="right">
+    <h2>    Name:  Gurmant singh
+    </h2>
+    <p>
+        Age: 20 yr
+        <br>
+        College name: anand international college of engineering 
+    </p>
+    <table border="10px">
+       
+            <div>
+            Marks in every semester
+            </div>
+       <tr>
+           <th>1st Semester</th>
+           <th>2nd Semester</th>
+           <th>3rd Semester</th>
+           <th>4th Semester</th>
+           <th> 5th Semester</th>
+       </tr>
+       <tr>
+            <td>8.93 SGPA</td>
+            <td>10.0 SGPA</td>
+            <td>10.0 SGPA</td>
+            <td>10.0 SGPA</td>
+            <td>10.0 SGPA</td>
+       </tr>
+
+    </table>
+
+    <video width="320" height="340"
+    controls border=10 src="/img/vid1.mp4"></video>
+</body>
+</html>
